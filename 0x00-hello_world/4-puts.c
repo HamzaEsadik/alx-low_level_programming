@@ -1,7 +1,11 @@
 #include <stdio.h>
 
-/*
- * This functios prints a sentence
+/**
+ * main - entry point
+ *
+ * Description: This functios prints a sentence
+ *
+ * Return: Always 0
  */
 int main(void)
 {
