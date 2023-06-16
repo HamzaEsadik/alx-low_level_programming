@@ -29,3 +29,4 @@ int main(void)
 		puts("is negative\n");
 	}
 	return (0);
+}
