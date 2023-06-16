@@ -20,11 +20,11 @@ int main(void)
 	{
 		puts("is positive\n");
 	}
-	if (n == 0)
+	else if (n == 0)
 	{
 		puts("is zero\n");
 	}
-	if (n < 0)
+	else
 	{
 		puts("is negative\n");
 	}
