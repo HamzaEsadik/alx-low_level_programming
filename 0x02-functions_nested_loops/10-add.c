@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * add - entry point
+ * int add - entry point
  *
  * Description: add tow
  *
