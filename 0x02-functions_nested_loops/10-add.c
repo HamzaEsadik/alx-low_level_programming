@@ -3,6 +3,8 @@
 /*
  * add - add two numbers
  *
+ * Description: add tow
+ *
  * return: i
  */
 int add(int a, int b)
