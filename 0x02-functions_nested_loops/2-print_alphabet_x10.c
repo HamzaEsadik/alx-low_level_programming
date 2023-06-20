@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - write a to z 10 times
+ * main - entry point
+ *
+ * Description: write a to z 10 times
  *
  * Return: null
  */
