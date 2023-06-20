@@ -1,13 +1,14 @@
 #include "main.h"
 
-/*
- * * main - main fuction
- * *
- * * Description: print  _putchar
- * *
- * * Return: null
- * */
-int main() {
+/**
+ * main - main fuction
+ *
+ * Description: print  _putchar
+ *
+ * Return: null
+ */
+int main(void)
+{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
