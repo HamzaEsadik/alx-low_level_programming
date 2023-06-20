@@ -13,8 +13,6 @@ int _islower(int c)
 	if (islower(c))
 	{
 		return (1);
-	} else if (!islower(c))
-	{
-		return (0);
 	}
+	return (0);
 }
