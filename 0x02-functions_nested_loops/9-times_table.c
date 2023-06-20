@@ -23,6 +23,10 @@ void times_table(void)
 			}
 			else
 			{
+				if (n != 0)
+				{
+					_putchar(' ');
+				}
 				_putchar(c + '0');
 			}
 			if (n != 9)
