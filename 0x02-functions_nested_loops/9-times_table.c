@@ -1,3 +1,10 @@
+#include "main.h"
+
+/**
+ * times_table - times table from 0 to 9
+ *
+ * Return: null
+ */
 void times_table(void)
 {
 	int i;
