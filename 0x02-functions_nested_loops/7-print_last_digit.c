@@ -1,5 +1,4 @@
 #include "main.h"
-#include <limits.h>
 
 /**
  * print_last_digit - print last digit
@@ -8,7 +7,7 @@
  *
  * Return: null
  */
-int print_last_digint (int i)
+int print_last_digit (int i)
 {
 	int n;
 
