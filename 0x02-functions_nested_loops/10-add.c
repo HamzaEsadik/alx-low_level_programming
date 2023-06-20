@@ -1,11 +1,11 @@
 #include "main.h"
 
 /*
- * add - add two numbers
+ * add - entry point
  *
  * Description: add tow
  *
- * return: i
+ * Return: i
  */
 int add(int a, int b)
 {
