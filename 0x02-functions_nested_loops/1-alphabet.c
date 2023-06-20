@@ -14,16 +14,3 @@ void print_alphabet(void)
 	for (i = 'a'; i <= 'z'; i++)
 		putchar(i);
 }
-
-/**
- * main - main fuction
- *
- * Description: print  _putchar
- *
- * Return: null
- */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
