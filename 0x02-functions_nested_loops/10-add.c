@@ -1,9 +1,9 @@
 #include "main.h"
 
 /*
- * int add - entry point
- *
- * Description: add tow
+ * add - entry point
+ * @a: first number
+ * @b: second number
  *
  * Return: i
  */
