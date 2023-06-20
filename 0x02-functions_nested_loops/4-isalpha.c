@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unistd.h>
+#include <ctype.h>
 
 /**
  * _isalpha - check if a character is alphabet
