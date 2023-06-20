@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * print_alphabet_x10 - entry point
  *
  * Description: write a to z 10 times
  *
