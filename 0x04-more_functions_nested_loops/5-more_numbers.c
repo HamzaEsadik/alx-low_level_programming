@@ -2,7 +2,6 @@
 
 /**
  * more_numbers - print 0 to 14 10 times
- * @c: number
  * Return: null
  */
 void more_numbers(void)
@@ -14,9 +13,12 @@ void more_numbers(void)
 	{
 		for (n = 0; n < 15; n++)
 		{
-			_putchar(n + '0');
+			if (n > 9)
+			{
+				_putchar(n / 10 + '0');
+			}
+			_putchar(n % 10 + '0');
 		}
 		_putchar('\n');
 	}
-	_putchar('\n');
 }
