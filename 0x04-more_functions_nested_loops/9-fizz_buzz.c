@@ -2,6 +2,8 @@
 
 /**
  * main - entry point
+ * print numbers from 0 to 100
+ * instead of multi 3 and 5
  * Return: null
  */
 int main(void)
