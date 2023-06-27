@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * pute_half - print second half
+ * puts_half - print second half
  * @str: char parameter
  * Return: null
  */
-void pute_half(char *str)
+void puts_half(char *str)
 {
 	int i;
 
