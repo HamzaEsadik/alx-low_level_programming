@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * *_strcpy - takes a pointer to an int

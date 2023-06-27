@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * print_array - takes a pointer to an int
