@@ -12,7 +12,7 @@ void pute_half(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 		;
 
-	i++
+	i++;
 		for (i /= 2; str[i] != '\0'; i++)
 		{
 			_putchar[str[i]];
