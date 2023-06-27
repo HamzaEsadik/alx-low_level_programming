@@ -5,7 +5,7 @@
  * @s: string parameter
  * Return: lenght of string
  */
-void _strlen(char *s)
+int _strlen(char *s)
 {
 	int counter;
 
