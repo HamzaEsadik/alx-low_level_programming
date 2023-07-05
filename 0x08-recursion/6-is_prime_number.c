@@ -8,7 +8,7 @@
  */
 int check(int n, int b)
 {
-	if (b % n == 0 || base < 2)
+	if (b % n == 0 || b < 2)
 		return (0);
 	else if (n == b - 1)
 		return (1);
@@ -23,5 +23,5 @@ int check(int n, int b)
  */
 int is_prime_number(int n)
 {
-	return (checker(2, n));
+	return (check(2, n));
 }
