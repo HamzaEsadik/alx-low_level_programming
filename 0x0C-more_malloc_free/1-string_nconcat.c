@@ -11,40 +11,34 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int i;
-	char *p;
-	unsigned int lens1 = strlen(s1);
-	unsigned int lens2 = strlen(s2);
-	int l;
+char *p;
+unsigned int i = 0, k = 0, len = 0, size;
 
-	if (s1 == NULL)
-	{
-		s1 = "";
-	}
+if (s1 == NULL)
+s1 = "";
 
-	if (s2 == NULL)
-	{
-		s2 = "";
-	}
-	if (n > lens2)
-	{
-		n = lens2;
-	}
-	p = (char *)malloc(lens1 + n + 1);
-	l = lens1 + n;
-	for (i = 0; i < lens1; i++)
-	{
-		*(p + i) = s1[i];
-	}
-	for (i = 0; i < n; i++)
-	{
-		*(p + lens1 + i) = s2[i];
-	}
-	*(p + l) = '\0';
+if (s2 == NULL)
+s2 = "";
 
-	if (p == NULL)
-	{
-		return (NULL);
-	}
-	return (p);
+while (len < strlen(s1))
+len++;
+size = (len + n) * sizeof(*p);
+p = malloc(size + 1);
+if (p == NULL)
+return (NULL);
+
+while (i < size && i < strlen(s1))
+{
+p[i] = s1[i];
+i++;
+}
+
+while (i < size && k < strlen(s2))
+{
+p[i] = s2[k];
+i++;
+k++;
+}
+p[i] = '\0';
+return (p);
 }
