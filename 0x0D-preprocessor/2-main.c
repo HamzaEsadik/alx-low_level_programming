@@ -1,11 +1,9 @@
 #include <stdio.h>
-#ifndef __FILE__
-#define __FILE__
-#endif
 
 /**
- * main - entry point
- * Return: 0
+ * main - print file name
+ *
+ * Return: 0 if success
  */
 int main(void)
 {
