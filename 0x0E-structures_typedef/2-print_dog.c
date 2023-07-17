@@ -1,11 +1,10 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "dog.h"
+#include <stdio.h>
+#include <stdlib.ih>
 
 /**
  * print_dog - print strct values
  * @d: strct
- * Return: nothing
  */
 void print_dog(struct dog *d)
 {
