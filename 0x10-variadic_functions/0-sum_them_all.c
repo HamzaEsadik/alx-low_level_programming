@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
 /**
-* int sum_them_all: sum of all its parameters
+* int sum_them_all - sum of all its parameters
 * @n: number of args
 * Return: sum
 */
