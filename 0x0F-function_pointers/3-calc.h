@@ -4,7 +4,7 @@
 /**
  * struct op - Struct
  * @op: operator
- * @fl: function
+ * @f: function associated
  */
 typedef struct op
 {
