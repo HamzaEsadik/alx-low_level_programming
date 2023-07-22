@@ -4,10 +4,10 @@
 #include <stdarg.h>
 
 /**
- * print_strings - Print any string
+ * print_string - Print any string
  * @args:args
  */
-void print_strings(va_list args)
+void print_string(va_list args)
 {
 	char *strng;
 
@@ -45,10 +45,10 @@ void print_float(va_list args)
 }
 
 /**
- * print_all - any given type of argument
+ * print_strings - any given type of argument
  * @format: types of arguments being passed
  */
-void print_all(const char * const format, ...)
+void print_strings(const char * const format, ...)
 {
 	va_list args;
 	char *sep;
