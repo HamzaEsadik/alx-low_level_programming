@@ -4,10 +4,10 @@
 #include <stdarg.h>
 
 /**
- * print_string - Print any string
+ * print_strings - Print any string
  * @args:args
  */
-void print_string(va_list args)
+void print_strings(va_list args)
 {
 	char *strng;
 
