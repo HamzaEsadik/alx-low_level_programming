@@ -1,0 +1,4 @@
+all school
+
+school: *SRC
+        cc *SRC -o school
