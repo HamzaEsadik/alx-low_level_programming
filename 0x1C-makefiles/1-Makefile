@@ -2,4 +2,4 @@ cc = gcc
 SRC = .c
 
 all:
-        cc *SRC -o school
+	cc *SRC -o school
