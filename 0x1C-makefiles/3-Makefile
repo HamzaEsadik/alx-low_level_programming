@@ -8,16 +8,13 @@ all:$(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 	
 clean:
-	RM *~
-	RM *.swp
 	RM $(NAME)
 	
 oclean:
 	RM $(OBJ)
 
 fclean
-	find . -name '*~' -type f -delete
-	find . -name '.*.swp' -type f -delete
+	RM $(NAME)
 	RM $(OBJ)
 
 re:
