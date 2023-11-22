@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-''''''
+'''island perimeter model'''
 def island_perimeter(grid):
+	'''calcul perimeter of an island'''
 	count = 0
 	for mylist in grid:
 		for i in mylist:
