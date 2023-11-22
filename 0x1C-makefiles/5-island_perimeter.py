@@ -1,7 +1,14 @@
 #!/usr/bin/python3
 '''island perimeter model'''
 def island_perimeter(grid):
-	'''calcul perimeter of an island'''
+	'''
+	calcul perimeter of an island
+
+	args:
+		-grid: the list of arrays
+
+	return: the perimeter of the island
+	'''
 	count = 0
 	for mylist in grid:
 		for i in mylist:
