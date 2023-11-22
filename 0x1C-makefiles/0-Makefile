@@ -1,0 +1,7 @@
+all: school
+
+school: a.out
+    gcc -o school a.out
+
+a.out: main.c school.c
+    gcc -c main.c school.c
